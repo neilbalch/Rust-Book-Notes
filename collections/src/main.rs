@@ -1,4 +1,3 @@
-// use std::vec;
 use std::collections::HashMap;
 
 fn vectors() {
@@ -191,9 +190,9 @@ fn int_stats(list: &Vec<i32>) -> (f64, i32, i32) {
 }
 
 fn main() {
-    // vectors();
-    // strings();
-    // hashmaps();
+    vectors();
+    strings();
+    hashmaps();
 
     let list = vec![1, 4, 3, 2, 0, 5, 3, 2, 2];
     println!("{:?}", int_stats(&list));
